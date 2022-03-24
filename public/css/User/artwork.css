@@ -1,0 +1,225 @@
+/*OUR EXPERT TEAM CSS FILE */
+/* *
+{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+} */
+.section1{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f6f4eb;
+    min-height: 100vh;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+   }
+.section-head2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.section-head2 h2{
+     
+    position: relative;
+    padding: 0;
+    color: crimson;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-head2 h2::before{
+    content:'';
+    width: 60px;
+    height: 3px;
+    background: rgb(212, 154, 166);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+.section-head2 h2 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.section-head2 p{
+    color:slategray;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container_art{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.container_art .card{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(216, 181, 188, 0.801);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container_art .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.container_art .card:hover .content{
+    opacity: 1;
+    transform: translateY(-40px);
+   
+}
+.container_art .card .content .imgBx{
+    position: relative;
+    width: 260px;
+    height: 265px;
+    /* border-radius: 100%; */
+    overflow: hidden;
+    border: 5px solid rgb(0, 0, 0);
+}
+.container_art .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_art .card .content .contentBx h3{
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container_art .card .content .contentBx h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container_art .card .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    /* margin-right: 35px; */
+}
+.container_art .card .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+.container_art .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container_art .card .sci li a{
+    color: white;
+    background-color: crimson;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+
+/*  */
+
+.section2{
+    display: flex ;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background: #ffffff;
+    min-height: 100vh;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+   }
+.section-head3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.section-head3 h2{
+     
+    position: relative;
+    padding: 0;
+    color: crimson;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-head3 h2::before{
+    content:'';
+    width: 60px;
+    height: 3px;
+    background: rgb(212, 154, 166);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+.section-head3 h2 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.section-head3 p{
+    color:slategray;
+    margin: 0px 200px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}

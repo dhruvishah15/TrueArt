@@ -1,0 +1,28 @@
+.viewAll_btn {
+    height: 50px;
+    position: relative;
+}
+
+.viewAll_btn a{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: crimson;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+
+.viewAll_btn a:hover{
+    color: crimson;
+    background: none;
+}

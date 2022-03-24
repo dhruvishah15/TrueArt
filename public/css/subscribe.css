@@ -1,0 +1,46 @@
+.sectionsub {
+    background-color: #f1f1f1;
+    position: relative;
+    padding: 150px;
+}
+
+.sectionsub .sectionsub1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.w-card {
+    width: 503px;
+}
+
+.p-card {
+    padding: 30px;
+}
+
+.border-input-border {
+    border-color: #D6D8E7
+}
+
+.bg-input-bg {
+    background: #FCFCFC
+}
+
+.bg-button {
+    background: crimson;
+    color: #fff;
+}
+
+.bg-button a:hover {
+    color: crimson;
+    background: none;
+}
+
+.icon-email {
+    transform: translatey(-50%);
+    top: 50%;
+    left: 10px;
+}

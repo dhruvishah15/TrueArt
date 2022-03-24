@@ -1,0 +1,134 @@
+/* artist-section styling */
+.artist-section{
+    display: flex;
+    background: url('https://i.pinimg.com/originals/57/99/62/57996201a591a86dc69ab9367d7a69f6.jpg') no-repeat center;
+    /* background-color: rgb(20, 19, 20); */
+    opacity: 0.9;
+    height: 50vh;
+    color: #fff;
+    min-height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.artist-section .max-width{
+  width: 100%;
+  display: flex;
+  /* background-color: crimson; */
+  justify-content: center;
+  align-self: center;
+}
+
+.artist-section .artist-content .artist-heading{
+    font-size: 40px;
+    margin: 5px 0;
+    /* text-align: center; */
+}
+.artist-section .artist-content .artist-heading span{
+    color: crimson;
+    font-weight: 500;
+}
+/* .artist-section .artist-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.artist-section .artist-content a:hover{
+    color: crimson;
+    background: none;
+} */
+
+/* all similar content styling codes */
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 2000px;
+    padding: 0 80px;
+    margin: auto;
+}
+.loginform-section{
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginform-section .loginform-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginform-section .title::after{
+    content: "Top Artist";
+}
+
+@media (max-width: 1257px){
+    .artist-section .artist-content .text-2{
+        font-size: 70px;
+    }
+    .artist-section .artist-content .artist-heading{
+        font-size: 35px;
+    }
+    .artist-section .artist-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .max-width{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .artist-section .artist-content .text-2{
+        font-size: 60px;
+    }
+    .artist-section .artist-content .artist-heading{
+        font-size: 32px;
+    }
+    .artist-section .artist-content a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .artist-section .artist-content .text-2{
+        font-size: 50px;
+    }
+    .artist-section .artist-content .artist-heading{
+        font-size: 27px;
+    }
+}
+
+
+/* cart-section */
+
+        .cart-icon {
+            color: #fff;
+        }
+
+        .cart-icon {
+            display: none;
+        }
+
+        .cart-icon {
+            display: block;
+            font-size: 3rem;
+        }
+
+
+
+

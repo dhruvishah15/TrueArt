@@ -1,0 +1,509 @@
+/*OUR EXPERT TEAM CSS FILE */
+/* *
+{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+} */
+.section2{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f6f4eb;
+    min-height: 100vh;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+   }
+.section-head1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.section-head1 h2{
+     
+    position: relative;
+    padding: 0;
+    color: crimson;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-head1 h2::before{
+    content:'';
+    width: 60px;
+    height: 3px;
+    background: rgb(212, 154, 166);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+.section-head1 h2 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.section-head1 p{
+    color:slategray;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container_expert_team{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.container_expert_team .card{
+    position: relative;
+    width: 290px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(216, 181, 188, 0.801);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container_expert_team .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.container_expert_team .card:hover .content{
+    opacity: 1;
+    transform: translateY(-40px);
+   
+}
+.container_expert_team .card .content .imgBx{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid crimson;
+}
+.container_expert_team .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_expert_team .card .content .contentBx h3{
+    color: #227f83;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container_expert_team .card .content .contentBx h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container_expert_team .card .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    /* margin-right: 35px; */
+}
+.container_expert_team .card .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+.container_expert_team .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container_expert_team .card .sci li a{
+    color: white;
+    background-color: crimson;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* live-section styling */
+.live-section{
+    display: flex;
+    /* background: url('../images/gif2.gif') no-repeat center; */
+    /* background-color: rgb(20, 19, 20); */
+    background: url('https://i.pinimg.com/originals/57/99/62/57996201a591a86dc69ab9367d7a69f6.jpg') no-repeat center;
+    opacity: 0.9;
+    height: 50vh;
+    color: white;
+    min-height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.live-section .max-width{
+  width: 100%;
+  display: flex;
+  /* background-color: crimson; */
+  justify-content: center;
+  align-self: center;
+}
+
+.live-section .live-content .live-heading{
+    font-size: 40px;
+    margin: 5px 0;
+    /* text-align: center; */
+}
+.live-section .live-content .live-heading span{
+    color: crimson;
+    font-weight: 500;
+}
+/* .artist-section .live-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.artist-section .live-content a:hover{
+    color: crimson;
+    background: none;
+} */
+
+/* all similar content styling codes */
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 2000px;
+    padding: 0 80px;
+    margin: auto;
+}
+.loginform-section{
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginform-section .loginform-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginform-section .title::after{
+    content: "Top Artist";
+}
+
+form .button{
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 670px;
+}
+
+form .button input{
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+    background: crimson;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+form .button input:hover{
+   /* transform: scale(0.99); */
+   /* background: linear-gradient(-135deg, #71b7e6, #9b59b6); */
+   color: crimson;
+   background: none;
+}
+
+
+@media (max-width: 1257px){
+    .live-section .live-content .text-2{
+        font-size: 70px;
+    }
+    .live-section .live-content .live-heading{
+        font-size: 35px;
+    }
+    .live-section .live-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .max-width{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .live-section .live-content .text-2{
+        font-size: 60px;
+    }
+    .live-section .live-content .live-heading{
+        font-size: 32px;
+    }
+    .live-section .live-content a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .live-section .live-content .text-2{
+        font-size: 50px;
+    }
+    .live-section .live-content .live-heading{
+        font-size: 27px;
+    }
+}
+
+
+
+
+/*####################################################################################################################################### */
+
+
+.max-width{
+    max-width: 2000px;
+    padding: 0 80px;
+    margin: auto;
+}
+.live{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.live .live-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* about section styling */
+.live .title::after{
+    content: "Our collection";
+}
+/* .live .live-content .left{
+    width: 45%;
+} */
+.live .live-content .left img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.live .live-content .right{
+    width: 55%;
+    padding-left: 10px;
+}
+/* .live .live-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+} */
+
+.live .live-content .right .painting-name{
+    color: crimson;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.live .live-content .right .artist{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.live .live-content .right .price{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.live .live-content .right .details{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.live .live-content .right .description{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.live .live-content .right .size{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+/* .live .live-content .right .size .span{
+    font-size: 15px;
+    color: crimson;
+    font-weight: 600;
+    margin-bottom: 7px;
+} */
+
+
+
+.live .live-content .right .text span{
+    color: crimson;
+}
+.live .live-content .right p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+}
+.live .live-content .right .link{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.live .live-content .right .link:hover{
+    color: crimson;
+    background: none;
+}
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .live .live-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1257px) {
+    .max-width{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 1257px){
+    .max-width{
+        max-width: 930px;
+    }
+    .live .live-content .column{
+        width: 100%;
+    }
+    .live .live-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .live .live-content .right{
+        flex: 100%;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .live .live-content .right .text{
+        font-size: 19px;
+    }
+}
+
+
+/* Style */
+
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+        .block {
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 50px 0px;
+        }
+
+        .input-res {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            font: 15px/1 'Open Sans', sans-serif;
+            color: #333;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            width: 100%;
+            max-width: 500px;
+            background-color: #ddd;
+            border: none;
+            padding: 10px 11px 11px 11px;
+            border-radius: 3px;
+            box-shadow: none;
+            outline: none;
+            margin: 0;
+            box-sizing: border-box;
+        } */

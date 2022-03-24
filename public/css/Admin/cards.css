@@ -1,0 +1,48 @@
+.card center table {
+  width: 18rem;
+  margin: 0 auto;
+  /* border: 2px solid white; */
+  background-color: crimson;
+}
+
+.card center table tr td {
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+}
+
+.artist-info {
+  text-align: center;
+}
+
+.card {
+  margin-left: 20px;
+  border: 0px solid white;
+  margin-bottom: 45px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.25);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.25);
+  /* Firefox */
+  -ms-transform: scale(1.25);
+  /* IE 9 */
+  -o-transform: scale(1.25);
+  /* Opera */
+  transform: scale(1.05);
+}
+/* 
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+} */
+
+/* @media (max-width: 1200px) {
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+} */
