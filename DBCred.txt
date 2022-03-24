@@ -1,0 +1,9 @@
+Username: XFE83RxDAs
+
+Database name: XFE83RxDAs
+
+Password: 6EZKvBUwGv
+
+Server: remotemysql.com
+
+Port: 3306
